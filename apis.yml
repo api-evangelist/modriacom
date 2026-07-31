@@ -1,8 +1,32 @@
 aid: modriacom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modriacom.png
 name: Modria.com
-description: Modria.com is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Modria is an online dispute resolution (ODR) platform originally surfaced as a portfolio company
+  of Battery Ventures. Enrichment (2026-07-20) confirmed the company is no longer independent; the
+  modria.com domain 301-redirects in full to www.tylertech.com/solutions/modria, so Modria now
+  operates as a resolution/ODR solution within Tyler Technologies. No independent developer portal,
+  API documentation, OpenAPI, or .well-known discovery surface exists on modria.com (every path
+  redirects to the Tyler Technologies marketing page). Retained as a network record; there is no
+  standalone API to enrich.
+tags:
+- Company
+- Online Dispute Resolution
+- Legal Tech
+- Government
+- Acquired
+- Resolution
 url: https://raw.githubusercontent.com/api-evangelist/modriacom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +36,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
-tags:
-- Company
+modified: '2026-07-20'
+x-status: acquired
+x-acquired-by: tyler-technologies
+x-redirects-to: https://www.tylertech.com/solutions/modria
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
